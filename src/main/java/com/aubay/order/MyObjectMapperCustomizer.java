@@ -1,4 +1,4 @@
-package com.example.resteasyjackson;
+package com.aubay.order;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
