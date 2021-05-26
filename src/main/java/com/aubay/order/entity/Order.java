@@ -11,8 +11,9 @@ import java.util.Optional;
 @Table(name = "order_table")
 public class Order extends PanacheEntity {
 
-    public Long user;
+    public String user;
     public String product;
+    public Long quantity;
     public LocalDateTime occurrence;
     public Status status;
 
